@@ -154,12 +154,12 @@ def main():
     observation = env.reset()  # This gets us the image
 
     # hyperparameters
-    batch_size = 10
+    batch_size = 1
     gamma = 0.99  # discount factor for reward
     decay_rate = 0.99
     num_hidden_layer_neurons = 200
     input_dimensions = 80 * 80
-    learning_rate = 1e-4
+    learning_rate = 1e-5
     resume = True
 
     episode_number = 0
